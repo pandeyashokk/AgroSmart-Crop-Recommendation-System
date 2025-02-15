@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color:white;
+    box-shadow: 0 0 5px 5px #7a6868;
+}
+.navbar-brand {
+    font-family: "Oswald";
+    font-size: 2rem;
+    color: black;
+}
+.navbar-brand:hover {
+    color: blue;
+}
+.nav-link {
+    float: right;
+    font-family: "Merriweather";
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: none;
+}
+.nav-link:hover {
+    color: blue;
+}
+.search-box {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    padding: 5px;
+}
+.search-box input{
+    outline: none;
+    border: none;
+}
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Images/crop.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-position: center;
+    width: 100%;
+    padding: 0 5%
+}
+.main-content{
+    max-width: 1400px;
+}
+.main-content h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-family: "Oswald";
+    color: white;
+}
+.main-content p {
+    font-family:"Merriweather";
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.features h1{
+    font-family: "Merriweather";
+}
+.features p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.features .text-center .btn{
+    margin: 20px;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+.team-members {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.team-members:hover{
+    border: 2px solid blue;
+}
+.team-members img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+.social-btns a{
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.social-btns img{
+    height: auto;
+    width: 30px;
+}
+.social-btns a:hover{
+    transform: scale(1.5);
+}
+.about h1{
+    font-family: "Merriweather";
+}
+.contact h1{
+    font-family: "Merriweather";
+}
+.contact p{
+    font-size: 20px;
+}
+.contact-form {
+    background-color: #e0e0e0;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.contact-form:hover{
+    border: 2px solid blue;
+}
+@media screen and (max-width:530px){
+    .main-content h1{
+        font-size: 2.5rem;
+    }
+    .main-content p{
+        font-size: 1.5rem;
+    }
+}

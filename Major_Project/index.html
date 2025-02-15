@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSmart-Crop Recommendation System</title>
+    <link rel="icon" type="image" href="./Images/Agro_logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./Images/Agro_logo.jpg" alt="Agrosmart Logo" style="width: 40px; height: 40px;" class="rounded-pill">
+        agroSmart</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="search-box">
+          <input type="text" placeholder="Search here.." class="bg-transparent px-3">
+          <button class="btn btn-primary btn-md rounded-pill px-3">Search</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Homepage Content-->
+  <section id="home" class="main">
+    <div class="container pt-5">
+      <div class="main-content">
+        <h1>SMART CROP RECOMMENDATION SYSTEM</h1>
+        <p>Choose Better Crop Earn More Profit</p>
+        <a href="#features" class="btn btn-lg btn-primary rounded-pill px-5">Explore Features</a>
+      </div>
+    </div>
+  </section>
+  <!--Features-->
+  <section id="features" class="features py-5">
+    <div class="container mx-auto mt-5">
+      <h1 class="text-center mb-5">FEATURES</h1>
+      <p class="text-center mb-5">AgroSmart is a plaform that assist farmers for choosing the best suited crop on their geographical locations. For this it takes parameters like Temperature, pH, Humidity, Rainfall and amount of fertilizers like Nitrogen, Phosphorus and Potassium from soil. Finally recommends best suited crop to grow and helps them to earn more profit.</p>
+      <hr>
+      <div class="text-center">
+        <a href="recommend_form.html" class="btn btn-lg btn-success rounded-pill px-5 text-white" target="_blank">Crop Recommendations</a>
+        <a href="crop_conditions.html" class="btn btn-lg btn-success rounded-pill px-5 text-white" target="_blank">Average Crop Conditions</a>
+      </div>
+    </div>
+  </section>
+  <!--Team-->
+  <section id="about" class="about pt-5">
+    <div class="container mt-5">
+    <h1 class="text-center mb-5">TEAM MEMBERS</h1>
+    <div class="team-container mt-5">
+      <div class="team-members">
+        <a href="./Images/Neupane.jpg" target="_blank">
+        <img src="./Images/Neupane.jpg" alt="Anup Neupane"></a>
+        <h4 class="pt-2">Anup Neupane</h4>
+        <div class="social-btns">
+          <a href="#"><img src="./Images/fb logo.webp" alt=""></a>
+          <a href="#"><img src="./Images/linkedin.png" alt=""></a>
+          <a href="#"><img src="./Images/insta logo.webp" alt=""></a>
+        </div>
+      </div>
+
+      <div class="team-members">
+        <a href="./Images/ashok.jpg" target="_blank">
+        <img src="./Images/ashok.jpg" alt="Ashok Pande"></a>
+        <h4 class="pt-2">Ashok Pande</h4>
+        <div class="social-btns">
+          <a href="#"><img src="./Images/fb logo.webp" alt=""></a>
+          <a href="#"><img src="./Images/linkedin.png" alt=""></a>
+          <a href="#"><img src="./Images/insta logo.webp" alt=""></a>
+        </div>
+      </div>
+
+      <div class="team-members">
+        <a href="./Images//royal.jpg" target="_blank">
+        <img src="./Images/royal.jpg" alt="Subash Shah"></a>
+        <h4 class="pt-2">Subash Shah</h4>
+        <div class="social-btns">
+          <a href="#"><img src="./Images/fb logo.webp" alt=""></a>
+          <a href="#"><img src="./Images/linkedin.png" alt=""></a>
+          <a href="#"><img src="./Images/insta logo.webp" alt=""></a>
+        </div>
+      </div>
+      <div class="team-members">
+        <a href="./Images/susmita.jpg" target="_blank">
+        <img src="./Images/susmita.jpg" alt="Susmita Aryal"></a>
+        <h4 class="pt-2">Susmita Aryal</h4>
+        <div class="social-btns">
+          <a href="#"><img src="./Images/fb logo.webp" alt=""></a>
+          <a href="#"><img src="./Images/linkedin.png" alt=""></a>
+          <a href="#"><img src="./Images/insta logo.webp" alt=""></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+<!--Contact-->
+  <section id="contact" class="contact py-5">
+    <div class="container pt-5">
+      <h1 class="text-center mb-3">CONTACT</h1>
+      <p class="text-center mb-5">Ask us if you have any queries</p>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form class="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address:</label>
+              <input type="text" class="form-control" id="address" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="comment" class="form-label">Comment:</label>
+              <textarea class="form-control" id="comment" rows="4" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="submit-btn btn btn-primary text-center rounded-pill px-5">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="bg-primary text-white py-3">
+    <div class="container text-center">
+      <p class="mb-0">© Copyright All rights Received Team <span class="h4 text-white">agroSmart</span>.</p>
+    </div>
+  </footer>
+</body>
+</html>
